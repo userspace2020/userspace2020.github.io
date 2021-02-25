@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Newsreader:wght@200&display=swap');
+</style>
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	text-align: center;
+padding-top: 30px;
+display: block;
+background-color: #ffc32b;
+font-weight: 500;
+background-blend-mode: multiply;
+background-color: #fcedc5;
+}
+.block {
+position: center;
+text-align: center;
+animation: text 3s 1;
+}
+@keyframes text {
+0%
+color:#ffc32b;
+} 
+.block p:nth-child(1){
+	font-size: 30px;
+	font-family: Ballet;
+	letter-spacing:2px;
+}
+
+.block h1 {
+	font-size: 20px;
+	font-family: Newsreader;
+}
+.block p:nth-child(2){
+	font-size: 20px;
+	font-family: seref;
+}
+
+}
+.block p:nth-child(3){
+	font-size: 20px;
+	font-family: seref;
+}
+.main-block {
+	width: 200px;
+	height: 200px;
+	background: url(https://i1.sndcdn.com/artworks-000631638772-iq0p2j-t500x500.jpg) center;
+	box-shadow: 0 0 30px rgba(0,0,0,0.9);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto 
+
+}
+
+.inst a{
+	width: 40px;
+	height: 40px;
+	background: url(../image/icon/1024px-Instagram_font_awesome.svg.png) center no-repeat;
+	display: inline-block;
+	background-size: 40px 40px;
+}
